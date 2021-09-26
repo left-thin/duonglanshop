@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container .menu li#active {
+    background-color: #ee4d2d;
+}
+
+body {
+    background-color: #e7e4e4;
+}
+
+li {
+    list-style-type: none;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    margin-left: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    background-color: #b14c38;
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.menu li:hover {
+    opacity: 0.8;
+}
+
+.list__goods div li img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px ;
+    cursor: pointer;
+}
+
+#new, #best-sell {
+    display: none;
+}
+
+#brand {
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+
+#logo {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.link__shop {
+    text-decoration: none;
+    color: pink;
+}
+
+.link {
+    text-decoration: none;
+}
+
+div.footer#brand {
+    font-size: 20px;
+}
